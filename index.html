@@ -19,21 +19,21 @@
       <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете
         использовать в своей жизни?
-        <a href="#" class="header__link">Узнать &#8594;</a>
+        <a href="#" class="header__link">Узнать &rarr;</a>
       </p>
       <img
         src="./images/header-image.png"
         alt="опять двойка"
         class="header__main-illustration"
       />
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
 
     <!--description-->
 
     <main class="content">
       <section class="description">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
@@ -53,19 +53,15 @@
               применяются на примере обучения в Практикуме.
             </p>
           </div>
-        </div>
+        </article>
       </section>
 
       <!--techniques-->
 
       <section class="techniques">
-        <h2 class="section-title">
-          Техники обучения
-        </h2>
-        <p class="section-subtitle">
-          Пять практик от Барбары Оакли
-        </p>
-        <div class="cards techniques__cards">
+        <h2 class="section-title">Техники обучения</h2>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+        <div class="cards">
           <!--1 card-->
           <article class="cards__item">
             <img
@@ -137,20 +133,18 @@
 
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
-        <p class="section-subtitle">
-          Для тех, кто любит прокрастинировать
-        </p>
+        <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe 
-            class="video__iframe" 
-            id="ytplayer-1" 
+          <iframe
+            class="video__iframe"
+            id="ytplayer-1"
             src="https://www.youtube.com/embed/5MgBikgcWnY"
             allowfullscreen
           ></iframe>
-          <iframe 
-            class="video__iframe" 
-            id="ytplayer-2" 
-            src="https://www.youtube.com/embed/arj7oStGLkU" 
+          <iframe
+            class="video__iframe"
+            id="ytplayer-2"
+            src="https://www.youtube.com/embed/arj7oStGLkU"
             allowfullscreen
           ></iframe>
         </div>
@@ -180,16 +174,14 @@
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть</p>
-        <a class="feynman__link" href="#">Подробнее &#8594;</a>
+        <a class="feynman__link" href="#">Подробнее &rarr;</a>
       </section>
 
       <!--digits-->
 
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
-        <p class="section-subtitle">
-          Про учёбу и мозг
-        </p>
+        <p class="section-subtitle">Про учёбу и мозг</p>
         <ul class="table">
           <!--1-->
           <li class="table__cell">
@@ -257,15 +249,15 @@
             получить навыки и знания, которые приносят успех в школе, карьере и
             жизни.
           </blockquote>
-          <p class="khan__quote-author">Джордж Лукас</p>
-          <p class="khan__quote-author-subline">Киноредиссёр, продюсер</p>
+          <h3 class="khan__quote-author">Джордж Лукас</h3>
+          <p class="khan__quote-author-subline">Кинорежиссёр, продюсер</p>
           <div class="khan__book-container">
             <img
               class="khan__book-pic"
               src="./images/khan-book.jpg"
               alt="Обложка книги Весь мир школа."
             />
-            <a class="khan__buy-link" href="#">Купить книгу &#8594;</a>
+            <a class="khan__buy-link" href="#">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
@@ -273,15 +265,11 @@
       <!--kaufman-->
 
       <section class="kaufman">
-        <div class="kaufman__triangle"></div>
-        <h2
-          class="section-title section-title_theme_dark"
-        >
+        <div class="kaufman__triangle rotation"></div>
+        <h2 class="section-title section-title_theme_dark">
           Принципы обучения
         </h2>
-        <p
-          class="section-subtitle section-subtitle_theme_dark"
-        >
+        <p class="section-subtitle section-subtitle_theme_dark">
           от Джоша Кауфмана
         </p>
         <ol class="table table_theme_dark">
@@ -366,41 +354,46 @@
           Больше материалов о техниках и лайфхаках обучения
         </p>
         <ul class="resources__logo-zone">
-          <li class="resources__link">
-            <a href="https://arzamas.academy/" target="_blank">
-              <img
+          <li>
+            <a
+              class="resources__link"
+              href="https://arzamas.academy/"
+              target="_blank"
+              ><img
                 src="./images/logo/resources-arzamas.svg"
-                alt="Arzamas"
                 class="resources__logo"
-              />
-            </a>
+                alt="Арзамас"
+            /></a>
           </li>
-          <li class="resources__link">
-            <a href="https://nplus1.ru/" target="_blank">
-              <img
+          <li>
+            <a class="resources__link" href="https://nplus1.ru/" target="_blank"
+              ><img
                 src="./images/logo/resources-n1.svg"
+                class="resources__logo"
                 alt="N+1"
-                class="resources__logo"
-              />
-            </a>
+            /></a>
           </li>
-          <li class="resources__link">
-            <a href="https://strelka.com/ru/" target="_blank">
-              <img
+          <li>
+            <a
+              class="resources__link"
+              href="https://strelka.com/ru/"
+              target="_blank"
+              ><img
                 src="./images/logo/resources-strelka.svg"
-                alt="STRELKA"
                 class="resources__logo"
-              />
-            </a>
+                alt="Стрелка"
+            /></a>
           </li>
-          <li class="resources__link">
-            <a href="https://polka.academy/" target="_blank">
-              <img
+          <li>
+            <a
+              class="resources__link"
+              href="https://polka.academy/"
+              target="_blank"
+              ><img
                 src="./images/logo/resources-polka.svg"
-                alt="ПОЛКА"
                 class="resources__logo"
-              />
-            </a>
+                alt="Полка"
+            /></a>
           </li>
         </ul>
       </section>
@@ -418,7 +411,7 @@
         </div>
         <!-- info  -->
         <div class="footer__column footer__column_content_info">
-          <h2 class="footer__column-heading">О Практикуме</h2>
+          <h4 class="footer__column-heading">О Практикуме</h4>
           <nav>
             <ul class="footer__column-links">
               <li><a class="footer__column-link" href="#">Главная</a></li>
@@ -429,7 +422,7 @@
         </div>
         <!-- social media -->
         <div class="footer__column footer__column_content_social">
-          <h2 class="footer__column-heading">Соцсети</h2>
+          <h4 class="footer__column-heading">Соцсети</h4>
           <nav>
             <ul class="footer__column-links">
               <li>
